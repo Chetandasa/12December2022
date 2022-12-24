@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <link rel="stylesheet" href="./netflixhomepage.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix</title>
+</head>
+<body>
+  <div id="appMountPoint">
+    <div class="basicLayout">
+      <div class="netflix-sans-font-loaded">
+        <div class="our-story-destop-framework">
+          <div>
+            <div class="our-story-container" dir="ltr">
+              <div class="our-story-header-wrapper">
+                <div class="our-story-header our-story-header--has-language-selector" data-uia-nmhp="our-story-header">
+                  <span class="svg-nfLogo our-story-logo nfLogo" data-uia="netflix-header-svg-logo-noclick">
+                    <svg viewBox="0 0 111 30" data-uia="netflix-logo" class="svg-icon svg-icon-netflix-logo" aria-hidden="true" focusable="false">
+                      <g id="netflix-logo">
+                        <path d="M105.06233,14.2806261 L110.999156,30 C109.249227,29.7497422 107.500234,29.4366857 105.718437,29.1554972 L102.374168,20.4686475 L98.9371075,28.4375293 C97.2499766,28.1563408 95.5928391,28.061674 93.9057081,27.8432843 L99.9372012,14.0931671 L94.4680851,-5.68434189e-14 L99.5313525,-5.68434189e-14 L102.593495,7.87421502 L105.874965,-5.68434189e-14 L110.999156,-5.68434189e-14 L105.06233,14.2806261 Z M90.4686475,-5.68434189e-14 L85.8749649,-5.68434189e-14 L85.8749649,27.2499766 C87.3746368,27.3437061 88.9371075,27.4055675 90.4686475,27.5930265 L90.4686475,-5.68434189e-14 Z M81.9055207,26.93692 C77.7186241,26.6557316 73.5307901,26.4064111 69.250164,26.3117443 L69.250164,-5.68434189e-14 L73.9366389,-5.68434189e-14 L73.9366389,21.8745899 C76.6248008,21.9373887 79.3120255,22.1557784 81.9055207,22.2804387 L81.9055207,26.93692 Z M64.2496954,10.6561065 L64.2496954,15.3435186 L57.8442216,15.3435186 L57.8442216,25.9996251 L53.2186709,25.9996251 L53.2186709,-5.68434189e-14 L66.3436123,-5.68434189e-14 L66.3436123,4.68741213 L57.8442216,4.68741213 L57.8442216,10.6561065 L64.2496954,10.6561065 Z M45.3435186,4.68741213 L45.3435186,26.2498828 C43.7810479,26.2498828 42.1876465,26.2498828 40.6561065,26.3117443 L40.6561065,4.68741213 L35.8121661,4.68741213 L35.8121661,-5.68434189e-14 L50.2183897,-5.68434189e-14 L50.2183897,4.68741213 L45.3435186,4.68741213 Z M30.749836,15.5928391 C28.687787,15.5928391 26.2498828,15.5928391 24.4999531,15.6875059 L24.4999531,22.6562939 C27.2499766,22.4678976 30,22.2495079 32.7809542,22.1557784 L32.7809542,26.6557316 L19.812541,27.6876933 L19.812541,-5.68434189e-14 L32.7809542,-5.68434189e-14 L32.7809542,4.68741213 L24.4999531,4.68741213 L24.4999531,10.9991564 C26.3126816,10.9991564 29.0936358,10.9054269 30.749836,10.9054269 L30.749836,15.5928391 Z M4.78114163,12.9684132 L4.78114163,29.3429562 C3.09401069,29.5313525 1.59340144,29.7497422 0,30 L0,-5.68434189e-14 L4.4690224,-5.68434189e-14 L10.562377,17.0315868 L10.562377,-5.68434189e-14 L15.2497891,-5.68434189e-14 L15.2497891,28.061674 C13.5935889,28.3437998 11.906458,28.4375293 10.1246602,28.6868498 L4.78114163,12.9684132 Z" id="Fill-14"></path>
+                      </g>
+                    </svg>
+                    <span class="screen-reader-text">Netflix</span>
+                  </span>
+                  <div class="lang-selection-container" id="lang-switcher">
+                    <div data-uia="language-picker-header+container" class="ul-select-wrapper">
+                      <label for="lang-switcher-hearder-select" class="ul-label">
+                        <span class="ui-label-text">Select Language</span>
+                      </label>
+                      <div class="select-arrow medium prefix globe">
+                        ::before
+                        <select data-uia="language-picker-header" class="ui-select medium" id="lang-switcher-header-select" tabindex="0" placeholder="lang-switcher">
+                          <option selected lang="en" value="/in/" data-language="en" data-country="IN">English</option>
+                          <option lang="hi" value="/in-hi/" data-language="hi" data-country="IN">हिंदी</option>
+                        </select>
+                        ::after
+                      </div>
+                    </div>
+                  </div>
+                  <a href="/login" class="authLinks redButton" data-uia="header-login-link">signIn</a>
+                </div>
+              </div>
+              <div class="our-story-cards" data-uia-nmhp="our-story-cards">
+                <div class="our-story-card hero-card hero_fuji vlv" data-uia-nmhp="hero_fuji" data-uia="our-story-card">
+                  <div class="our-story-card-background">
+                    <div class="concord-img-wrapper" data-uia="concord-img-wrapper" style="height: 721px;">
+                    <img class="concord-img vlv-creative" src="https://assets.nflxext.com/ffe/siteui/vlv3/5e48e7b6-350d-48d9-96d6-de8ca173c89f/fbb54774-ca17-4208-a995-db44bffe4163/IN-en-20221219-popsignuptwoweeks-perspective_alpha_website_small.jpg" srcset="https://assets.nflxext.com/ffe/siteui/vlv3/5e48e7b6-350d-48d9-96d6-de8ca173c89f/fbb54774-ca17-4208-a995-db44bffe4163/IN-en-20221219-popsignuptwoweeks-perspective_alpha_website_small.jpg 1000w, https://assets.nflxext.com/ffe/siteui/vlv3/5e48e7b6-350d-48d9-96d6-de8ca173c89f/fbb54774-ca17-4208-a995-db44bffe4163/IN-en-20221219-popsignuptwoweeks-perspective_alpha_website_medium.jpg 1500w, https://assets.nflxext.com/ffe/siteui/vlv3/5e48e7b6-350d-48d9-96d6-de8ca173c89f/fbb54774-ca17-4208-a995-db44bffe4163/IN-en-20221219-popsignuptwoweeks-perspective_alpha_website_large.jpg 1800w" alt="">
+                      <div class="concord-img-gradient">
+                      ::before
+                      </div>
+                    </div>
+                  </div>
+                  <div class="our-story-card-text">
+                    <h1 id class="our-story-card-title" data-uia="hero-titel">Unlimited Movies, TV shows and more.</h1>
+                    <h2 id class="our-story-card-title" data-uia="our-story-card-subtitle">Watch anywhere. Cancel anytime.</h2>
+                    <form class="cta-form email-form" data-uia="email-form" method="GET">
+                      <h3 class="email-form-title">Ready to watch? Enter your email to create or restart your mambership.</h3>
+                      <div class="email-form-lockup">
+                        <ul class="simpleForm structural ui-grid">
+                          <li data-uia="field-emial+wrapper" class="nfFormSpace field-email">
+                            <div data-uia="feild-email+container" class="nfInput nfInputResponsive">
+                              <div class="nfInputPlacement">
+                                <label class="input_id" aria-placeholder="email">
+                                  <input type="email" data-uia="feild-email" name="email" class="nfTextField hasText" id="id_email_hero_fuji" value="" tabindex="0" autocomplete="email" maxlength="50" minlength="5" dir="ltr">
+                                  <label for="id_email_hero_fuji" class="placeLabel">Email address</label>
+                                </label>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                        <div class="our-story-cta-container cta-link-wrapper">
+                          <button class="btn nmhp-cta btn-red nmhp-cta-extra-large btn-none btn-custom" type="submit" autocomplete="off" tabindex="0" role="link" data-uia="our-story-cta-hero_fuji">
+                            <span id class="cta-btn-txt" data-uia>Get Started</span>
+                            <span id class="chevron-right-arrow" data-uia>
+                              <svg viewBox="0 0 6 12" xmlns="http://www.w3.org/2000/svg">
+                              <desc>chevron</desc>
+                              <path d="M.61 1.312l.78-.624L5.64 6l-4.25 5.312-.78-.624L4.36 6z" fill="none" fill-rule="evenodd"></path>
+                              </svg>
+                            </span>
+                            ::after
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="center-pixel" style="position:absolute"></div>
+                </div>
+                <div class="our-story-card animation-card watchOnTv" data-uia-nmhp="watchOnTv" data-uia="our-story-card">
+                  <div class="animation-card-container">
+                    <div class="our-story-card-text">
+                      <h1 id class="our-story-card-title" data-uia="animation-card-title">Enjoy on your TV.</h1>
+                      <h2 id class="our-story-card-subtitle" data-uia="our-story-card-subtitle">
+                        "Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more."
+                      </h2>
+                    </div>
+                    <div class="our-story-card-img-container">
+                      <div class="our-story-card-animation-container">
+                        <img alt class="our-story-card-img" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" data-uia="our-story-card-img">
+                        <div class="our-story-card-animation" data-uia="our-story-card-animation">
+                          <video class="our-story-card-video" data-uia="our-story-card-video" autoplay playsinline muted loop>
+                            <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" type="video/mp4">
+                          </video>
+                          <div class="our-story-card-animation-text"></div>
+                          <div class="our-story-card-animation-custom" data-uia="our-story-card-custom" aria-hidden="true"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="center-pixel" style="position:absolute"></div>
+                  </div>
+                </div>
+                <div class="our-story-card animation-card downloadAndWatch flipped" data-uia-nmhp="downloadAndWatch" data-uia="our-story-card">
+                  <div class="animation-card-container">
+                    <div class="our-story-card-title">
+                      <h1 id class="our-story-card-title" data-uia="animation-card-title">Download your show to watch offline.></h1>
+                      <h2 id class="our-story-card-subtitle" data-uia="our-story-card-subtitle">Save your favourites easily and always have something to watch.</h2>
+                    </div>
+                    <div class="our-story-card-img-container">
+                      <div class="our-story-card-animation-container">
+                        <img alt class="our-story-card-img" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" data-uia="our-story-card-img">
+                        <div class="our-story-card-animation-image">
+                          <img alt src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png">
+                        </div>
+                        <div class="our-story-card-animation-text">
+                          <div id class="text-0" data-uia>Stranger Things</div>
+                          <div class="text-1" data-uia>Downloading...</div>
+                        </div>
+                        <div class="our-story-card-animation-custom" data-uia="our-story-card-custom" aria-hidden="true"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="center-pixel" style="position:absolute"></div>
+                </div>
+              </div>
+              <div class="our-story-card animation-card watchOnDevice" data-uia-nmhp="watchOnDevice" data-uia="our-story-card">
+                <div class="animation-card-container">
+                  <h1 id class="our-story-card-title" data-uia="animation-card-title">Watch everywhere.</h1>
+                  <h2 id class="our-story-card-subtitle" data-uia="our-story-card-subtitle">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h2>
+                </div>
+                <div class="our-story-card-img-container">
+                  <div class="our-story-card-animation-container">
+                    <img alt class="our-story-card-img" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png" data-uia="our-story-card-img">
+                    <div class="our-story-card-animation" data-uia="our-story-card-animation">
+                      <video class="our-story-card-video" data-uia="our-story-card-video" autoplay playsinline muted loop>
+                        <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v" type="video/mp4">
+                      </video>
+                      <div class="our-story-card-animation-text"></div>
+                      <div class="our-story-card-animation-custom" data-uia="our-story-card-custom" aria-hidden="true"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="center-pixel" style="position:absolute"></div>
+              </div>
+            </div>
+            <div class="our-story-card animation-card kidsValueProp flipped" data-uia="kidsValueProp" data-uia="our-story-card"></div>
+            <div class="animation-card-container">
+              <div class="our-story-card-text">
+                <h1 id class="our-story-card-title" data-uia="animation-card-title">Create profiles for children.</h1>
+                <h2 id class="our-story-card-subtitle" data-uia="our-story-card-subtitle">
+                  "Send children on adventures with their favourite characters in a space made just for them—free with your membership."
+                </h2>
+              </div>
+              <div class="our-story-card-img-container">
+                <div class="our-story-card-animation-container">
+                  <img alt class="our-story-card-img" src="https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABYjXrxZKtrzxQRVQNn2aIByoomnlbXmJ-uBy7du8a5Si3xqIsgerTlwJZG1vMpqer2kvcILy0UJQnjfRUQ5cEr7gQlYqXfxUg7bz.png?r=420" data-uia="our-story-card-img">
+                  <div class="our-story-card-animation" data-uia="our-story-card-animation">
+                    <div class="our-story-card-animation-text"></div>
+                    <div class="our-story-card-animation-custom" data-uia="our-story-card-custom" aria-hidden="true"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="center-pixel" style="position:absolute"></div>
+            </div>
+            <div class="our-story-card faq-card" data-uia-nmhp="faq" data-uia="our-story-card" id="faq">
+              <div class="our-story-card-text">
+                <h1 id class="our-story-card-title" data-uia="faq-title">Frequently Asked Questions</h1>
+                <ul class="faq-list">
+                  <li class="faq-list-item" data-uia-nmhp="faq-list-item" data-uia-faq="what_is_netflix">
+                    <button class="faq-question">"What is Netflix?"
+                      <svg id="thin-x" viewBox="0 0 26 26" class="svg-icon svg-icon-thin-x svg-closed __web-inspector-hide-shortcut__" focusable="true">
+                        <path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path>
+                      </svg>
+                    </button>
+                    <div class="faq-answer closed">
+                      <span id data-uia>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
+                        <br>
+                        <br>
+                        You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!
+                      </span>
+                    </div>
+                  </li>
+                  <li class="faq-list-item" data-uia-nmhp="faq-list-item" data-uia-faq="cost">
+                    <button class="faq-question">How much does Netflix cost?
+                      <svg id="thin-x" viewBox="0 0 26 26" class="svg-icon svg-icon-thin-x svg-closed" focusable="true">
+                        <path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path>
+                      </svg>
+                    </button>
+                    <div class="faq-answer closed">
+                      <span id data-uia>
+                        Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹ 149 to ₹ 649 a month. No extra costs, no contracts.
+                      </span>
+                    </div>
+                  </li>
+                  <li class="faq-list-item" data-uia-nmhp="faq-list-item" data-uia-faq="where_to_watch">
+                    <button class="faq-question">Where can I watch?
+                      <svg id="thin-x" viewBox="0 0 26 26" class="svg-icon svg-icon-thin-x svg-closed" focusable="true">
+                        <path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path>
+                      </svg>
+                    </button>
+                    <div class="faq-answer closed">
+                      <span id data-uia>
+                        Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+                        <br>
+                        <br>
+                        You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
+                      </span>
+                    </div>
+                  </li>
+                  <li class="faq-list-item" data-uia-nmhp="faq-list-item" data-uia-faq="cancel">
+                    <button class="faq-question">How do I cancel?
+                      <svg id="thin-x" viewBox="0 0 26 26" class="svg-icon svg-icon-thin-x svg-closed" focusable="true">
+                        <path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path>
+                      </svg>
+                    </button>
+                    <div class="faq-answer closed">
+                      <span id data-uia>
+                        Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.
+                      </span>
+                    </div>
+                  </li>
+                  <li class="faq-list-item" data-uia-nmhp="faq-list-item" data-uia-faq="what_to_watch_nft">
+                    <button class="faq-question">What can I watch on Netflix?
+                      <svg id="thin-x" viewBox="0 0 26 26" class="svg-icon svg-icon-thin-x svg-closed" focusable="true">
+                        <path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path>
+                      </svg>
+                    </button>
+                    <div class="faq-answer closed">
+                      <span id data-uia>
+                        Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
+                      </span>
+                    </div>
+                  </li>
+
+                  <li class="faq-list-item" data-uia-nmhp="faq-list-item" data-uia-faq="kids_value_prop">
+                    <button class="faq-question">Is Netflix good for kids?
+                      <svg id="thin-x" viewBox="0 0 26 26" class="svg-icon svg-icon-thin-x svg-closed" focusable="true">
+                        <path d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z"></path>
+                      </svg>
+                    </button>
+                    <div class="faq-answer closed">
+                      <span id data-uia>
+                        The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space.
+                        <br>
+                        <br>
+                        Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.
+                      </span>
+                    </div>
+                  </li>
+                </ul>
+                <form class="cta-form email-form" data-uia="email-form" method="GET">
+                  <h3 class="email-form-title">Ready to watch? Enter your email to create or restart your membership.</h3>
+                  <div class="email-form-lockup">
+                    <ul class="simpleForm structural ui-grid">
+                      <li data-uia="field-email+wrapper" class="nfFormSpace field-email">
+                        <div data-uia="field-email+container" class="nfInput nfInputResponsive">
+                          <div class="nfInputPlacement">
+                            <label class="input_id" placeholder="email">
+                              <input type="email" data-uia="feild-email" name="email" class="nfTextField" id="id_email_faq" value tabindex="0" autocomplete="email" maxlenght="50" minlength="5" dir>
+                              <label for="id_email_faq" class="placeLabel">Email address</label>
+                            </label>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                    <div class="our-story-cta-container cta-link-wrapper">
+                      <button class="btn nmhp-cta btn-red nmhp-cta-extra-large btn-none btn-custom" type="submit" autocomplete="off" tabindex="0" role="link" data-uia="our-story-cta-faq">
+                        <span id class="cta-btn-txt" data-uia>Get Started</span>
+                        <span id class="chevron-right-arrow" data-uia>
+                          <svg viewBox="0 0 6 12" xmlns="http://www.w3.org/2000/svg">
+                            <desc>chevron</desc>
+                            <path d="M.61 1.312l.78-.624L5.64 6l-4.25 5.312-.78-.624L4.36 6z" fill="none" fill-rule="evenodd"></path>
+                          </svg>
+                        </span>
+                        ::after
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <img src="https://assets.nflxext.com/ffe/siteui/acquisition/common/transparent_1x1.png" aria-hidden="true" alt style="position: absolute">
+              <div class="center-pixel" style="position:absolute"></div>
+            </div>
+          </div>
+          <div class="our-story-card card-contents footer-card our-story-card-no-border" style="position:absolute" data-uia-nmhp="footer" data-uia="our-story-card">
+            <div class="site-footer-wrapper centered dark">
+              <div class="footer-divider"></div>
+              <div class="site-footer">
+                <p class="footer-top">Questions? Call 
+                  <a class="footer-top-a" href="tel:000-800-919-1694">000-800-919-1694</a>
+                </p>
+                <ul class="footer-links structural">
+                  <li class="footer-link-item" placeholder="footer_responsive_link_faq_item">
+                    <a class="footer-link" data-uia="footer-link" href="https://help.netflix.com/support/412" placeholder="footer_responsive_link_faq">FAQ</a>
+                  </li>
+
+                  <li class="footer-link-item" placeholder="footer_responsive_link_help_item">
+                    <a class="footer-link" data-uia="footer-link" href="https://help.netflix.com/" placeholder="footer_responsive_link_help">
+                      <span id data-uia="data-uia-footer-label">Help Center</span>
+                    </a>
+                  </li>
+
+                  <li class="footer-link-item" placeholder="footer_responsive_link_account_item">
+                    <a class="footer-link" data-uia="footer-link" href="https://www.netflix.com/youraccount" placeholder="footer_responsive_link_account">
+                      <span id data-uia="data-uia-footer-label">Account</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
