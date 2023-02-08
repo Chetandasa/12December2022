@@ -1,14 +1,479 @@
-
-
-
-.image1 {
-  height: 722px;
-  width: 1340px;
+#appMountPoint {
+  background-color: #000;
 }
 
-.logo {
-  color: #EB2929;
-  font-size: 81px;
-  font-weight: 649;
-  text-decoration: none;
+* {
+  letter-spacing: 0!important;
+}
+
+.netflix-sans-font-loaded {
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.our-story-container {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.our-story-header-wrapper {
+  background-color: transparent;
+  bottom: 0;
+  height: 5rem;
+  left: 0;
+  margin: 0 auto;
+  max-width: 1920px;
+  padding-top: 20px;
+  position: relative;
+  right: 0;
+  top: 0;
+  transition: background-color .5s;
+  width: 100%;
+  z-index: 10;
+}
+
+.our-story-cards {
+  margin: 0 auto;
+}
+
+.our-story-card {
+  background: transparent;
+  border-bottom: 8px solid #222;
+  color: #fff;
+  margin-bottom: 0;
+  padding: 50px 5%;
+  position: relative;
+}
+
+.our-story-card-background {
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: -70px;
+  z-index: 0;
+}
+
+.hero-card.vlv .our-story-card-background .concord-img-wrapper {
+  bottom: 0;
+}
+
+.hero-card.vlv .concord-img {
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: auto;
+}
+
+.hero-card.vlv .concord-img-gradient {
+  background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 40%,transparent 75%,rgba(0,0,0,.8));
+}
+
+.hero-card .our-story-card-text {
+  padding: 0;
+}
+
+.hero-card h1, .hero-card h2 {
+  margin: 0 auto;
+  max-width: 640px;
+}
+
+.hero-card .our-story-card-subtitle {
+  font-size: 1.125rem;
+  margin: 1rem auto;
+}
+
+.email-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-form-title {
+  font-weight: 400;
+  margin: 0 auto;
+  max-width: 450px;
+  padding: 0 5%;
+}
+
+.email-form-lockup {
+  text-align: center;
+}
+
+ul.structural {
+  margin: 0;
+  padding: 0;
+}
+
+.email-form-lockup .field-email {
+  margin-bottom: 0;
+}
+
+.email-form-lockup .nfInput {
+  margin: 10px auto;
+}
+
+.nfInput .nfInputPlacement {
+  position: relative;
+}
+
+label {
+  cursor: default;
+}
+
+.nfInput .nfTextField {
+  height: 48px;
+  padding: 10px 10px 0;
+  width: 100%;
+}
+
+.nfInput .placeLabel {
+  color: #8c8c8c;
+  font-size: 14px;
+  left: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: font .1s ease,top .1s ease,transform .1s ease;
+}
+
+.hero-card .our-story-card-text .our-story-cta-container {
+  float: none;
+}
+
+.nmhp-cta-extra-large {
+  font-size: 1rem;
+  min-height: 40px;
+}
+
+.nmhp-cta .cta-btn-txt {
+  flex: 1 1 auto;
+  padding: 0.35rem 0;
+  text-align: center;
+}
+
+.nmhp-cta .chevron-right-arrow {
+  flex: 0 1 auto;
+  height: 0.75em;
+  margin: 0 0 0 0.5em;
+  position: relative;
+  width: 0.35em;
+}
+
+.center-pixel {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+}
+
+.our-story-card {
+  background: transparent;
+  border-bottom: 8px solid #222;
+  color: #fff;
+  margin-bottom: 0;
+  padding: 50px 5%;
+  position: relative;
+}
+
+.animation-card .animation-card-container {
+  flex-direction: column;
+}
+
+.animation-card.watchOnTv .our-story-card-text {
+  margin: 0;
+}
+
+width: 549px)
+.our-story-card-title {
+    font-size: 1.625rem;
+}
+
+.our-story-card-subtitle, .our-story-card-text {
+  font-size: 1.125rem;
+}
+
+.animation-card .our-story-card-img-container {
+  margin-top: 1em;
+  max-width: 600px;
+  width: 100%;
+}
+
+.animation-card.watchOnTv .our-story-card-animation-container {
+  margin: -10% 0 0;
+}
+
+.animation-card.watchOnTv .our-story-card-animation {
+  height: 100%;
+  left: 50%;
+  max-height: 54%;
+  max-width: 73%;
+  position: absolute;
+  top: 46%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+}
+
+.animation-card.watchOnTv .our-story-card-video {
+  height: 100%;
+  width: 100%;
+}
+
+.center-pixel {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+}
+
+.our-story-card {
+  background: transparent;
+  border-bottom: 8px solid #222;
+  color: #fff;
+  margin-bottom: 0;
+  padding: 50px 5%;
+  position: relative;
+}
+
+.animation-card.flipped .animation-card-container {
+  flex-flow: column;
+}
+
+.animation-card.flipped .animation-card-container .our-story-card-text {
+  padding: 0;
+}
+
+.our-story-card-title {
+  font-size: 1.625rem;
+}
+
+.our-story-card-subtitle, .our-story-card-text {
+  font-size: 1.125rem;
+}
+
+.animation-card .our-story-card-img-container {
+  margin-top: 1em;
+  max-width: 600px;
+  width: 100%;
+}
+
+.animation-card.downloadAndWatch.flipped .our-story-card-animation-container {
+  margin: -8% 0 0;
+}
+
+img {
+  border: 0;
+  height: auto;
+  max-width: 100%;
+}
+
+.animation-card.downloadAndWatch .our-story-card-animation {
+  align-items: center;
+  background: #000;
+  border: 2px solid hsla(0,0%,100%,.25);
+  border-radius: 0.75em;
+  bottom: 8%;
+  box-shadow: 0 0 2em 0 #000;
+  display: flex;
+  left: 50%;
+  margin: 0 auto;
+  min-width: 15em;
+  padding: 0.25em 0.65em;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 60%;
+}
+
+.animation-card.downloadAndWatch .our-story-card-animation .our-story-card-animation-image {
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 0 1em 0 0;
+}
+
+.animation-card.downloadAndWatch .our-story-card-animation .our-story-card-animation-text {
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0.3em 0;
+}
+
+.animation-card.downloadAndWatch .our-story-card-animation .our-story-card-animation-text .text-0 {
+  color: #fff;
+  font-size: .9em;
+  font-weight: 500;
+}
+
+.animation-card.downloadAndWatch .our-story-card-animation .our-story-card-animation-text .text-1, .animation-card.downloadAndWatch .our-story-card-animation .our-story-card-animation-text .text-2 {
+  color: #0071eb;
+  font-size: .75em;
+  font-weight: 400;
+}
+
+.animation-card.downloadAndWatch .our-story-card-animation .our-story-card-animation-custom {
+  background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) 50% no-repeat;
+  background-size: 100%;
+  content: "";
+  display: block;
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 3em;
+  outline: 2px solid #000;
+  outline-offset: -2px;
+  width: 3em;
+}
+
+.center-pixel {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+}
+
+.our-story-card {
+  background: transparent;
+  border-bottom: 8px solid #222;
+  color: #fff;
+  margin-bottom: 0;
+  padding: 50px 5%;
+  position: relative;
+}
+
+.animation-card .animation-card-container {
+  flex-direction: column;
+}
+
+.animation-card.watchOnDevice .our-story-card-text {
+  margin: 0;
+}
+
+.our-story-card-title {
+  font-size: 1.625rem;
+}
+
+.our-story-card-subtitle, .our-story-card-text {
+  font-size: 1.125rem;
+}
+
+.animation-card .our-story-card-img-container {
+  margin-top: 1em;
+  max-width: 600px;
+  width: 100%;
+}
+
+.animation-card.watchOnDevice .our-story-card-animation-container {
+  margin: -5% 0 0;
+}
+
+.animation-card.watchOnDevice .our-story-card-img, .animation-card.watchOnTv .our-story-card-img {
+  position: relative;
+  z-index: 2;
+}
+
+.animation-card.watchOnDevice .our-story-card-animation {
+  height: 100%;
+  left: 50%;
+  max-height: 47%;
+  max-width: 63%;
+  position: absolute;
+  top: 34%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+}
+
+.animation-card.watchOnDevice .our-story-card-video, .animation-card.watchOnTv .our-story-card-video {
+  height: 100%;
+  width: 100%;
+}
+
+.our-story-card {
+  background: transparent;
+  border-bottom: 8px solid #222;
+  color: #fff;
+  margin-bottom: 0;
+  padding: 50px 5%;
+  position: relative;
+}
+
+.animation-card.flipped .animation-card-container {
+  flex-flow: column;
+}
+
+.animation-card.flipped .animation-card-container .our-story-card-text {
+  padding: 0;
+}
+
+.our-story-card-title {
+  font-size: 1.625rem;
+}
+
+.our-story-card-subtitle, .our-story-card-text {
+  font-size: 1.125rem;
+}
+
+.animation-card .our-story-card-img-container {
+  margin-top: 1em;
+  max-width: 600px;
+  width: 100%;
+}
+
+.animation-card .our-story-card-animation-container {
+  margin: 0 auto;
+}
+
+img {
+  border: 0;
+  height: auto;
+  max-width: 100%;
+}
+
+.center-pixel {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+}
+
+.faq-card {
+  padding: 50px 0;
+}
+
+.our-story-card-text {
+  font-size: 1.125rem;
+}
+
+.faq-card .our-story-card-title, .faq-card .our-story-cta-container {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+ul {
+  padding: 0;
+}
+
+.faq-card .faq-list-item {
+  list-style-type: none;
+  margin: 0 0 8px;
+}
+
+.faq-card .faq-question {
+  border: 0;
+  font-weight: 400;
+  margin-bottom: 1px;
+  padding: 0.8em 2.2em 0.8em 1.2em;
+  position: relative;
+  width: 100%;
+}
+
+.faq-card .svg-closed {
+  transform: translateY(-50%) rotate(-45deg);
+}
+
+.faq-card .faq-answer.closed {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .25s cubic-bezier(.5,0,.1,1);
+}
+
+.faq-card .faq-answer span {
+  display: inline-block;
+  padding: 1.2em;
+}
+
+.faq-card .faq-list-item {
+  list-style-type: none;
+  margin: 0 0 8px;
 }
